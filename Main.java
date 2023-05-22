@@ -18,11 +18,11 @@ public class Main {
 
             newPixel[x] = new Pixels(height, width);
 
-            System.out.println("Input the X coordinate of the cell #" + x + 1 + ":");
+            System.out.println("\nInput the X coordinate of the cell #" + (x + 1) + ":");
 
             newPixel[x].width = input.nextInt();
 
-            System.out.println("Input Y coordinate of the cell #" + x + 1 + ":");
+            System.out.println("Input Y coordinate of the cell #" + (x + 1) + ":");
             newPixel[x].height = input.nextInt();
 
             coordList.add(newPixel[x]);
