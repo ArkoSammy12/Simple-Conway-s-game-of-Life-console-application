@@ -56,6 +56,8 @@ public class Main {
 
         }
 
+        input.close();
+
         // Initialize all elements of the Buffer array as the background character
         Pixels.initScreen();
 
