@@ -14,7 +14,7 @@ public class Main {
         Pixels[] newPixel = new Pixels[Screen.WIDTH * Screen.HEIGHT];
 
         // Ask user for an undefined amount of cells
-        while (exit == false) {
+        while (!exit) {
 
             newPixel[x] = new Pixels(height, width);
 
@@ -33,7 +33,7 @@ public class Main {
             boolean subExit = false;
 
             // Ask users if they want to input more cells
-            while (subExit == false) {
+            while (!subExit) {
 
                 System.out.println("\n\nDo you want to input more more cells? Y/N");
                 String opt = input.next();
